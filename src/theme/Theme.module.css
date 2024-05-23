@@ -1,0 +1,130 @@
+.themeContainer {
+  position: relative;
+  width: 100%;
+  height: 270vh;
+}
+
+.themeContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(ellipse at center, rgba(49, 168, 53, 0.5), rgba(1, 165, 7, 0.5) 30%, rgba(97, 245, 102, 0.5) 50%, rgba(243, 229, 229, 0) 70%);
+  z-index: -1;
+}
+
+.themeContainer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./earth.png');
+  background-size: 240vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.titleContainer {
+  color: white;
+  font-size: 7.5vh;
+  padding-top: 16vh;
+  text-align: center;
+  position: relative;
+  z-index: 0; 
+  white-space: nowrap;
+}
+
+.socialContainer {
+  position: absolute;
+  left: 50%;
+  top: 28%; /* Adjust this value to position the icons vertically */
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.socialContainer img {
+  width: 42px;
+  height: 42px;
+  margin: 0 30px; /* Add some margin between icons if needed */
+}
+
+
+@media (max-width: 1120px) {
+  .themeContainer {
+    height: 222vh;
+  }
+  
+  .themeContainer::after {
+    background-size: 190vh;
+  }
+  
+  .titleContainer {
+    font-size: 6.5vh;
+  }
+
+  .socialContainer {
+    top: 32%;
+  }
+}
+
+@media (max-width: 768px) {
+  .themeContainer {
+    height: 150vh;
+  }
+  
+  .themeContainer::after {
+    background-size: 120vh;
+  }
+  
+  .titleContainer {
+    padding-top: 15vh;
+    padding-left: 0;
+    font-size: 4vh;
+  }
+
+  .socialContainer {
+    top: 32%;
+  }
+}
+
+@media (max-width: 500px) {
+  .themeContainer {
+    height: 110vh;
+  }
+  
+  .themeContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(eclipse at center, rgba(49, 168, 53, 0.5), rgba(1, 165, 7, 0.5) 30%, rgba(97, 245, 102, 0.5) 80%, rgba(243, 229, 229, 0) 90%);
+    z-index: -1;
+  }
+  
+  .themeContainer::after {
+    background-size: 80vh;
+  }
+  
+  .titleContainer {
+    padding-top: 15.5vh;
+    padding-left: 0;
+    font-size: 2.5vh;
+  }
+
+  .socialContainer {
+    top: 32%;
+  }
+  .socialContainer img{
+    width: 30px;
+    height: 30px;
+  }
+}
