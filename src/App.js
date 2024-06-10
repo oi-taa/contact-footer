@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./nav bar/nav";
 import Theme from "./theme/theme";
+import {Footer} from "./footer/footer";
+import { Contact } from "./contact/contact";
 
 
 function Team() {
@@ -12,9 +14,6 @@ function Achievements() {
   return <div>Achievements Page Content</div>;
 }
 
-function ContactUs() {
-  return <div>Contact Us Page Content</div>;
-}
 
 function App() {
   return (
@@ -24,8 +23,9 @@ function App() {
         <Route path="/" element={<Theme />} />
         <Route path="/team" element={<Team />} />
         <Route path="/achievements" element={<Achievements />} />
-        <Route path="/contact" element={<ContactUs />} />
       </Routes>
+      <Contact />
+      <Footer />
     </Router>
   );
 }
