@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+footer {
+    margin: 10vh;
+    margin-top: 5vh;
+  }
+  
+.footer-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10vh;
+}
+  
+.footer-icons img {
+    width: 4.5vh;
+    height: 4.5vh;
+}
+
+.footer-wtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 10vh;
+  margin-left: 20vh;
+  font-family: 'Inter', sans-serif;
+}
+p{
+  font-family: "Helvetica Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 4vh;
+}
