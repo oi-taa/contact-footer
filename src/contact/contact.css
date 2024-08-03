@@ -7,8 +7,7 @@
   font-family: "Inter", sans-serif;
 }
 .map-container {
-  margin-top: 7vh;
-  flex: 1;
+  margin-top: 10vh;
   position: relative;
   height: 60vh;
   width: 50vh;
@@ -16,10 +15,11 @@
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
+  flex: 1;
 }
 
 .map-container iframe {
-  max-width: 70%;
+  max-width: 80%;
   height: 100%;
   border: 0;
   margin: 0;
@@ -32,7 +32,17 @@
   padding-bottom: 5vh;
   margin-left: 10vh;
   margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 3600px;
+}
+
 
 .form-container {
   max-width: 200vh;
@@ -43,15 +53,16 @@
   flex-direction: column;
   margin-top: 2.5rem;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 2rem;
   position: relative;
   z-index: 10;
+  flex:1;
 }
 
 .form-title {
   color: #ffffff;
   font-size: 1.125rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-weight: 700;
   font-size: x-large;
 }
@@ -61,8 +72,9 @@
   background-color: #cfcfcf;
   border: 1px solid #cbd5e0;
   border-radius: 0.25rem;
-  padding-left: 2rem;
-  padding-right: 15rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-right: 5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
@@ -93,12 +105,12 @@
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.25rem;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: background-color 0.2s;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: small;
+  font-size: medium;
   margin-top: 2.5vh;
 }
 
