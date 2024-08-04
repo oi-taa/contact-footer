@@ -15,7 +15,14 @@ function Team() {
 function App() {
   return (
     <Router>
-      <AchievementsPage/>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Theme />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/achievements" element={<AchievementsPage />} />
+      </Routes>
+      <Contact />
+      <Footer />
     </Router>
   );
 }
