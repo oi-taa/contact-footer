@@ -3,7 +3,6 @@ import styles from './Theme.module.css';
 import insta from './insta.png';
 import twitter from './twitter.png';
 import facebook from './facebook.png';
-
 function Theme() {
   return (
     <div className={styles.themeContainer}>

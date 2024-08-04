@@ -4,15 +4,12 @@ import Nav from "./nav bar/nav";
 import Theme from "./theme/theme";
 import {Footer} from "./footer/footer";
 import { Contact } from "./contact/contact";
-
+import AchievementsPage from "./Achievements/AchiementsMain";
 
 function Team() {
   return <div>Team Page Content</div>;
 }
 
-function Achievements() {
-  return <div>Achievements Page Content</div>;
-}
 
 
 function App() {
@@ -22,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Theme />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/achievements" element={<Achievements />} />
+        <Route path="/achievements" element={<AchievementsPage />} />
       </Routes>
       <Contact />
       <Footer />

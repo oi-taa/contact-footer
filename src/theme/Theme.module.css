@@ -42,7 +42,7 @@
 .socialContainer {
   position: absolute;
   left: 50%;
-  top: 28%; /* Adjust this value to position the icons vertically */
+  top: 28%;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@
 .socialContainer img {
   width: 42px;
   height: 42px;
-  margin: 0 30px; /* Add some margin between icons if needed */
+  margin: 0 30px;
 }
 
 
