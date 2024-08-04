@@ -21,6 +21,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/achievements" element={<AchievementsPage />} />
       </Routes>
+      <AchievementsPage/>
       <Contact />
       <Footer />
     </Router>
