@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\nav bar"
   ],
-  "SelectedNode": "\\C:\\Users\\Samriddh Diwan\\Source\\Repos\\teamkaplana-website",
+  "SelectedNode": "\\src\\nav bar",
   "PreviewInSolutionExplorer": false
 }

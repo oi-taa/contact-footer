@@ -21,11 +21,12 @@
   }
   
   .achievements h1 {
-    margin-left: 50px;
+    margin-top:3%;
+    margin-left: 5%;
     width: 70%;
     height: 88px;
     top: 29px;
-    left: 531.86px;
+    left: 100%;
     gap: 0px;
     
 
@@ -38,12 +39,13 @@
   }
   
   .achievements p {
-    
+
     margin: 5%;
+    margin-top: 2%;
     width: 85%;
 height: 226px;
 top: 144px;
-left: 531.86px;
+left: 100%;
 gap: 0px;
 
 
@@ -52,6 +54,7 @@ font-size: 24px;
 font-weight: 400;
 line-height: 29.05px;
 text-align: left;
+line-height: 140%;
 
 
   }

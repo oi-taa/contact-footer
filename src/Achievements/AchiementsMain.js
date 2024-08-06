@@ -6,7 +6,7 @@ import styles from './App.module.css';
 function AchievementsPage() {
   return (
     <div className={styles.App}>
-    <h1 className={styles.title}>OUR ACHIEVEMENTS</h1>
+    <h1 className={styles.title}>OUR  ACHIEVEMENTS</h1>
       {achievementsPerYear.map((yearData, yearIndex) => (
         <div key={yearIndex}>
           <h1 className={styles.year}>{yearData.year}</h1>
