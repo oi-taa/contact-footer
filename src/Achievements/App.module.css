@@ -1,44 +1,59 @@
 .App {
+}
 
+.year {
+  margin-left: 7%;
+  margin-top: 20px;
+  color: white;
+  height: 48px;
+  gap: 0px;
+}
 
+.achievementsContainer {
+  margin: 2%;
+  padding: 1% 1% 1% 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  color: white;
+  align-self: center;
+  font-size: 64px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 48px;
   }
   
   .year {
-    margin-left: 7%;
-    margin-top: 20px;
-    color: white;
-height: 48px;
-gap: 0px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
   }
   
-  .achievementsContainer {
-    margin: 2%;
-    padding: 1% 1% 1% 1%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .year {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 28px;
   }
   
-  .title{
-    margin-top: 80px;
-    margin-bottom: 50px;
-    color: white;
-    align-self: center;
-    font-size: 64px;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 15px;
-    /* 
-    
-    
-    font-family: Anxiety;
-
-line-height: 56px;
-
-text-align: center;
-width: 1440px;
-height: 86px;
-top: 293px;
-left: 8px;
-gap: 0px; */
+  .year {
+    font-size: 16px;
   }
+}
