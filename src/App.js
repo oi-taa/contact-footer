@@ -5,6 +5,7 @@ import Theme from "./theme/theme";
 import {Footer} from "./footer/footer";
 import { Contact } from "./contact/contact";
 import AchievementsPage from "./Achievements/AchiementsMain";
+import { OurSponsors} from"./sponsors/sponsors";
 
 function Team() {
   return <div>Team Page Content</div>;
@@ -21,6 +22,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/achievements" element={<AchievementsPage />} />
       </Routes>
+      <OurSponsors/>
       <Contact />
       <Footer />
     </Router>
