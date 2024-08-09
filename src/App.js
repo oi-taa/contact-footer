@@ -4,6 +4,7 @@ import Nav from "./nav bar/nav";
 import Theme from "./theme/theme";
 import {Footer} from "./footer/footer";
 import { Contact } from "./contact/contact";
+import { OurSponsors} from"./sponsors/sponsors";
 
 
 function Team() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/achievements" element={<Achievements />} />
       </Routes>
+      <OurSponsors/>
       <Contact />
       <Footer />
     </Router>

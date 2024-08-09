@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 .frame {
   display: flex;
   align-items: center;
@@ -7,7 +8,7 @@
   font-family: "Inter", sans-serif;
 }
 .map-container {
-  margin-top: 10vh;
+  margin-top: 15vh;
   position: relative;
   height: 60vh;
   width: 50vh;
@@ -61,10 +62,10 @@
 
 .form-title {
   color: #ffffff;
-  font-size: 1.125rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   font-weight: 700;
-  font-size: x-large;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .form-input,

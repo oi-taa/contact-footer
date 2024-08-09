@@ -29,7 +29,7 @@ export const Contact = () => {
       <div class="container">
         <div class="content-wrapper">
           <div class="form-container">
-            <h2 class="form-title">Contact Us</h2>
+            <h2 class="form-title">CONTACT US</h2>
             <form ref={form} onSubmit={sendEmail}>
               <input class="form-input" placeholder="Name" type="text" name="user_name"></input>
               <input class="form-input" placeholder="Email" type="email" name="user_email"></input>
