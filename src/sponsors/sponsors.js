@@ -1,12 +1,12 @@
 import React from "react";
-import './sponsors.css';
-import { Youtube, Vimeo, Twitch, Asana, IGTV, Flickr, Netflix, Coub } from './icons'; 
+import styles from './SponsorsSection.module.css';
+import { Youtube, Vimeo, Twitch, Asana, IGTV, Flickr, Netflix, Coub } from './icons-sponsors'; 
 
-export const OurSponsors = ({ className }) => {
+export const OurSponsors = () => {
   return (
-    <div className="sponsors-container">
-      <h1>OUR SPONSORS</h1>
-      <div className="logos">
+    <div className={styles.sponsorsContainer}>
+      <h1 className={styles.sponsorsHeading}>OUR SPONSORS</h1>
+      <div className={styles.sponsorsLogos}>
         <Youtube/>
         <Vimeo/>
         <Twitch/>
@@ -19,3 +19,4 @@ export const OurSponsors = ({ className }) => {
     </div>
   );
 };
+export default OurSponsors;
